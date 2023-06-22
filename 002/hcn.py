@@ -1,0 +1,28 @@
+# buoc 1: nhung thu vien vao
+import turtle 
+# buoc 2: tao doi tuong 
+t=turtle.Turtle()
+# t.forward(200)
+# t.right(90)
+# t.forward(100)
+# t.right(90)
+# t.forward(200)
+# t.right(90)
+# t.forward(100)
+# t.right(45)
+# t.forward(141.4)
+# t.right(90)
+# t.forward(141.4)
+# t.penup()
+# t.goto(-300,-200)
+# t.pendown()
+# t.left(45)
+# t.forward(200)
+# t.right(90)
+# t.forward(100)
+# t.right(90)
+# t.forward(200)
+# t.right(90)
+# t.forward(100)
+turtle.done()
+
