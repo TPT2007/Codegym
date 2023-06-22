@@ -1,4 +1,5 @@
-import turtle
+#Bai 1:
+'''import turtle
 #define pen size
 turtle.pensize(5)  
 #define pen color
@@ -35,5 +36,14 @@ turtle.goto(-100, -70)
 turtle.pendown()
 turtle.right(90)
 turtle.circle(100,180)
-turtle.mainloop()
+turtle.mainloop()'''
+#Bai 2:
+import math
+a = float(input("Enter the length of side a: "))
+b = float(input("Enter the length of side b: "))
+c = float(input("Enter the length of side c: "))
+s = (a+b+c)/2
+area = math.sqrt(s*(s-a)*(s-b)*(s-c))
+print(" Area of the triangle is: ", area)
+
 
